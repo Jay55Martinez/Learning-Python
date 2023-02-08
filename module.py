@@ -1,3 +1,5 @@
+import math
+
 # This is a test module that we will import into ModulesAndPackages.py to demonstrate how to use
 # and create modules
 class Person:
@@ -50,3 +52,7 @@ class Person:
     def print_reletives(self):
         print("%s's relatives are: " % self.name, end="")
         print([relative.name for relative in self.relatives])
+
+# returns the distance between two points
+def distance(x1, x2, y1, y2):
+    return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
