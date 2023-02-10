@@ -35,6 +35,9 @@ if __name__ == "__main__":
 # containing the word find.
 import re
 
+# dir(module) prints all the functions in the module
+# help(module.funct) prints what the sepcific function does
+
 # Your code goes here
 find_member = []
 for function in dir(re):
